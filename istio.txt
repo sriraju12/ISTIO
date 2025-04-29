@@ -238,7 +238,7 @@ Jaeger:
 
   * in Jaeger UI, the mandatory field is only the service. remaining are optional.
 
-  * inorder to Jaeger work, you need implement distributed tracing in the code.
+  * inorder to Jaeger work, you need implement distributed tracing in the application code.
 
   * in the Jaeger UI, for every request, a new requestId called x-request-id is generating and it is grouping all
     the services that this request is reaching. i.e the x-request-id is same for all the services that the request'
